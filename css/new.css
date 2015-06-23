@@ -2,7 +2,6 @@ html, body {position:relative;}
 
 img{
 	position: relative;
-	top:33px;
 	width:334px;
 	height:334px;
 }
@@ -22,11 +21,11 @@ div{
 	top:33px;
 }
 
-#leftOne{
-	left: 33px;
-}
-
-#rightOne{
-	position:relative;
-	right: 33px;
+#footer {
+	background:#ffab62;
+	width:100%;
+	height:100px;
+	position:absolute;
+	bottom:0;
+	left:0;
 }

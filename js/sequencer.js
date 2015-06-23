@@ -6,11 +6,13 @@ $(document).ready(function(){
         to       : 160,              //the #### will start to replace with 0040
         width    : 334,             //the advertisement container will be resized to a width of 320px
         height   : 334,             //the advertisement container will be resized to a height of 150px
-        showPreLoader : true,       //we do want to see a preloader animation
-        playOnLoad : false,         //we don't want to have the movie play after the images have been loaded automatically
+        showPreLoader : false,       //we do want to see a preloader animation
+        playOnLoad : true,         //we don't want to have the movie play after the images have been loaded automatically
         // the preloader animation is located in the folder "img/loader.png"
         // it is a 4x4 image matrix with each image of 40px by 40px
-        //loader   : {path:"img/loader.png",height:40,width:40,rows:4,columns:4}   
+        //loader   : {path:"img/loader.png",height:40,width:40,rows:4,columns:4}  
+        fps: 10,
+        loadparallel: 10
     });
     $('#advertisement').jsMovie("play");
     // make frame 1 to frame 20 to a clip an call it Hello. Pause the animation for 2 seconds before the next clip is being played
