@@ -1,0 +1,32 @@
+html, body {position:relative;}
+
+img{
+	position: relative;
+	top:33px;
+	width:334px;
+	height:334px;
+}
+
+div{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#advertisement{
+	position: relative;
+	top:33px;
+}
+
+#below{
+	position:relative;
+	top:33px;
+}
+
+#leftOne{
+	left: 33px;
+}
+
+#rightOne{
+	position:relative;
+	right: 33px;
+}

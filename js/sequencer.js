@@ -3,9 +3,9 @@ $(document).ready(function(){
         sequence : "GIF###.jpg",    //the #### will be replaced with 0001,0002,0003,...
         folder   : "img/rl_test/",       //this is the path where the script can find the image sequence
         from     : 1,               //the #### will start to replace with 0001
-        to       : 10,              //the #### will start to replace with 0040
-        width    : 1000,             //the advertisement container will be resized to a width of 320px
-        height   : 1000,             //the advertisement container will be resized to a height of 150px
+        to       : 160,              //the #### will start to replace with 0040
+        width    : 334,             //the advertisement container will be resized to a width of 320px
+        height   : 334,             //the advertisement container will be resized to a height of 150px
         showPreLoader : true,       //we do want to see a preloader animation
         playOnLoad : false,         //we don't want to have the movie play after the images have been loaded automatically
         // the preloader animation is located in the folder "img/loader.png"
