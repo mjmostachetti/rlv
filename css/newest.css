@@ -34,15 +34,18 @@ body{
 }
 
 #sidebar{
-	position: absolute;
 	background-color: white;
 	width: 250px;
 	height: 100%;
-	padding: 250px 0 0;
+	padding: 40px 0 0;
 	left:0;
 }
 
 div#sidebar{
 	text-align: left;
+}
+
+div#footer{
+	width: 100%;
 }
 

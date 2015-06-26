@@ -12,7 +12,8 @@ $(document).ready(function(){
         // it is a 4x4 image matrix with each image of 40px by 40px
         //loader   : {path:"img/loader.png",height:40,width:40,rows:4,columns:4}  
         fps: 10,
-        loadparallel: 10
+        loadparallel: 10,
+        repeat:false
     });
     $('#advertisement').jsMovie("play");
     // make frame 1 to frame 20 to a clip an call it Hello. Pause the animation for 2 seconds before the next clip is being played

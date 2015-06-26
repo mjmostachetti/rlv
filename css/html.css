@@ -1,0 +1,16 @@
+html, body {
+height: 100%; /*makes page take up all height*/
+}
+
+* {
+margin: 0; /*margins could ruin it*/
+}
+
+#maincontent {
+height: 100%; /*pushes sticky footer to the bottom */
+}
+
+#footer {
+  height: 50px; /* adjust the height of the footer */
+  margin-top: -50px;/* numbers must be opposite */
+}
